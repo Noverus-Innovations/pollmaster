@@ -82,7 +82,7 @@ async def on_ready():
     print(bot.db)
 
     # load emoji list
-    with open('utils/emoji-compact.json', encoding='utf-8') as emojson:
+    with open('/pollmaster/utils/emoji-compact.json', encoding='utf-8') as emojson:
         bot.emoji_dict = json.load(emojson)
 
     # # check discord server configs
